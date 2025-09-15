@@ -52,4 +52,5 @@ EXPOSE 1337
 HEALTHCHECK --interval=10s --timeout=2s --start-period=15s \
   CMD node ./healthcheck.js
 
+
 CMD ["bash", "./start.sh"]
